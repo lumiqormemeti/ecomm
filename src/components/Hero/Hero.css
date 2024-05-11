@@ -1,0 +1,50 @@
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: 'Alegreya SC', serif; 
+  color: #006D77;
+  margin-top: 100px;
+}
+
+.left-section {
+  flex: 1;
+
+}
+
+.left-section h1 {
+  font-size: 225.746px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.right-section {
+
+  flex: 1;
+}
+
+.right-section p {
+  font-size: 1.2em;
+  line-height: 1.6;
+}
+
+@media screen and (max-width: 960px) {
+  .hero-section {
+    flex-direction: column; /* Change to a column layout on smaller screens */
+    text-align: center; /* Center align content */
+  }
+  .left-section h1 {
+    font-size: min(30vw, 236px);
+    font-weight: bold;
+    margin: 0px;
+  }
+
+  .left-section,
+  .right-section {
+    width: 100%;
+  }
+
+  .left-section h1 {
+    margin-bottom: 20px; /* Add some space between sections */
+  }
+}

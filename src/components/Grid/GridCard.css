@@ -1,0 +1,67 @@
+.card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  max-width: 100%;
+  min-width: 210px;
+  width: calc(33.33% - 20px);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  height: fit-content;
+  min-height: 300px;
+  overflow: hidden;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 400;
+  margin-bottom: 10px; /* Add margin bottom to title */
+}
+
+.price {
+  font-size: 1.4em;
+  color: #007bff;
+  margin: 0 0 10px; /* Adjust margin */
+  font-weight: 500;
+  color: #006d77;
+}
+
+.features {
+  list-style: none;
+  padding: 0;
+  overflow-y: auto; /* Enable vertical scrollbar if content exceeds height */
+  flex-grow: 5; /* Let features occupy remaining space */
+}
+
+.feature-item {
+  margin-bottom: 5px;
+  font-weight: 500;
+  font-size: large;
+}
+
+.purchase-button {
+  background-color: #006d77;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 95%;
+  font-size: large;
+  align-self: flex-end;
+}
+
+.purchase-button:hover {
+  background-color: #008d99;
+}
+
+/* @media (max-width:900px) {
+  .card {
+  
+  }
+  
+} */

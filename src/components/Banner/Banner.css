@@ -1,0 +1,24 @@
+.banner {
+  width: 100%;
+  overflow: hidden;
+  padding: 20px 0px;
+  margin: auto;
+}
+
+.banner img {
+  width: 100%;
+  display: block;
+  border-radius: 35px;
+  filter: grayscale(100%);
+}
+
+@media (max-width:674px) {
+  .banner {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0px;
+    margin: auto;
+    display: none;
+  }
+  
+}
